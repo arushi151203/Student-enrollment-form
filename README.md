@@ -20,7 +20,7 @@ A full-stack Student Enrollment Form application built during my internship at *
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 student-enroll/
 ├── frontend/         # React frontend
 │   ├── src/
@@ -28,48 +28,48 @@ student-enroll/
 ├── backend/          # Express backend
 │   ├── db.js
 │   └── server.js
-\`\`\`
+```
 
 ## ⚙️ Getting Started
 
 ### Installation
 
 1. Clone the repository
-   \`\`\`bash
+   ```bash
    git clone https://github.com/arushi151203/Student-enrollment-form.git
    cd Student-enrollment-form
-   \`\`\`
+   ```
 
 2. Install frontend dependencies
-   \`\`\`bash
+   ```bash
    cd frontend
    npm install
-   \`\`\`
+   ```
 
 3. Install backend dependencies
-   \`\`\`bash
+   ```bash
    cd backend
    npm install
-   \`\`\`
+   ```
 
 4. Create \`backend/.env\` with your DB credentials:
-   \`\`\`env
+   ```env
    DB_HOST=localhost
    DB_PORT=5432
    DB_USER=your_db_user
    DB_PASSWORD=your_db_password
    DB_NAME=your_db_name
-   \`\`\`
+   ```
 
 5. Run backend
-   \`\`\`bash
+   ```bash
    node server.js
-   \`\`\`
+   ```
 
 6. Run frontend
-   \`\`\`bash
+   ```bash
    npm run dev
-   \`\`\`
+   ```
 
 ## 🙋‍♀️ Author
 **Arushi** — Intern at UptoSkills
